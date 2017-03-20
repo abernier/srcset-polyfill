@@ -7,16 +7,16 @@ See [the specification][spec] for the reference algorithm.
 with NPM:
 
 ```sh
-npm install https://github.com/abernier/srcset-polyfill/archive/patch-abernier-bunchofthings.tar.gz
+npm install https://github.com/abernier/srcset-polyfill/archive/master.tar.gz
 ```
 
 or with a plain old `<script>` tag:
 
 ```html
-<script src="https://cdn.rawgit.com/abernier/srcset-polyfill/patch-abernier-bunchofthings/build/srcset.js"></script>
+<script src="https://cdn.rawgit.com/abernier/srcset-polyfill/master/build/srcset.js"></script>
 ```
 
-NB: minified version here https://cdn.rawgit.com/abernier/srcset-polyfill/patch-abernier-bunchofthings/build/srcset.min.js
+NB: minified version here https://cdn.rawgit.com/abernier/srcset-polyfill/master/build/srcset.min.js
 
 ## Usage
 
