@@ -16,11 +16,7 @@ or with a plain old `<script>` tag:
 <script src="https://cdn.rawgit.com/abernier/srcset-polyfill/patch-abernier-bunchofthings/build/srcset.js"></script>
 ```
 
-or with the minified version:
-
-```html
-<script src="https://cdn.rawgit.com/abernier/srcset-polyfill/patch-abernier-bunchofthings/build/srcset.min.js"></script>
-```
+NB: minified version here https://cdn.rawgit.com/abernier/srcset-polyfill/patch-abernier-bunchofthings/build/srcset.min.js
 
 ## Usage
 
