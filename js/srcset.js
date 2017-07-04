@@ -172,7 +172,7 @@
     viewportInfo.compute();
 
     // Update every images
-    [].forEach.call(document.querySelectorAll('img[data-srcset]'), function (el) {
+    [].forEach.call(document.querySelectorAll('[data-srcset]'), function (el) {
       var srcsetview = srcsetViews.get(el);
       if (!srcsetview) {
         srcsetview = new SrcsetView(el);
