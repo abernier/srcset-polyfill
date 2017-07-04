@@ -1,0 +1,11 @@
+{
+  "name": "srcset-polyfill",
+  "version": "0.1.0",
+  "dependencies": {
+    "weak-map": {
+      "version": "1.0.5",
+      "from": "weak-map@>=1.0.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/weak-map/-/weak-map-1.0.5.tgz"
+    }
+  }
+}
