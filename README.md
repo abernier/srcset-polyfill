@@ -23,7 +23,15 @@ NB: minified version here https://cdn.rawgit.com/abernier/srcset-polyfill/master
 Use the `data-srcset` attribute of `<img>` elements. For example:
 
 ```html
-<img alt="The Breakfast Combo"
+<img alt
+  src="foo-mobile.png"
+  data-srcset="foo-mobile.png 1024w, foo-desktop.png 5000w">
+```
+
+or more advanced one:
+
+```html
+<img alt
   src="160x120.png"
   data-srcset="320x240.png 320w,640x480 320w 2x, 768x576.png 768w,1536x1152.png 768w 2x, 1024x768.png 1024w,2048x1536.png 1024w 2x, 2048x1536.png 5000w">
 ```
